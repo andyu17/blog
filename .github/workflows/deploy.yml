@@ -1,7 +1,7 @@
 name: Deploy to GitHub Pages
 
 on: [push]
-
+pemissions: { contents: write }
 jobs:
   build:
     runs-on: ubuntu-latest
