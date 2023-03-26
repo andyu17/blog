@@ -14,8 +14,8 @@ export const Profile = () => (
     </div>
 
     <p className="text-primary-1">
-      Modern JavaScript Framework: hybrid static & server rendering, TypeScript
-      support, smart bundling, route pre-fetching...
+      こんにちは、京都出身、大阪勤務のしがないエンジニアです。
+      本ブログを通して、フロントエンドのプログラミングを勉強しています。
     </p>
 
     <div className="flex gap-4">
