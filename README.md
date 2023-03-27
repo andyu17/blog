@@ -1,16 +1,8 @@
-# Blog Template
+# Blog
 
-個人ブログのテンプレートです。
-
-`_posts`ディレクトリにmdファイルを追加するだけでokです。もちろん、ZennやQiitaの投稿を流用することも可能です。
-
-詳しくは下記の記事をご覧ください。
+下記の記事を参考に個人ブログを作成しました。
 
 [Next.js + GitHub Pagesのブログテンプレートを作った →](https://zenn.dev/subt/articles/957bd5d01485e1)
-
-## Demo
-
-https://sub-t.github.io/blog-template/
 
 ## Features
 
@@ -20,15 +12,6 @@ https://sub-t.github.io/blog-template/
 - 目次付き
 - next-seoでSEO対策済み
 - OGP対応
-
-## Development
-
-```bash
-git clone https://github.com/sub-t/blog-template project-name
-cd project-name
-yarn
-yarn dev
-```
 
 ## Deployment
 
