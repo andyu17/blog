@@ -13,10 +13,10 @@ export const Home: React.VFC<Props> = ({ posts }) => {
   return (
     <MainLayout
       main={
-        <div className="vstack gap-12 p-8 bg-primary-1">
+        <div className="vstack gap-12 p-8 bg-primary-1" style={{ display: 'flex', flexDirection: 'column' }}>
           <Stories posts={posts} title="最新の記事" icon={<RiChatNewLine />} />
           <Link href="/posts/page/1" passHref>
-            <a className="button">
+            <a className="button" style={{ marginTop: 'auto' }}>
               記事一覧表示
             </a>
           </Link>
