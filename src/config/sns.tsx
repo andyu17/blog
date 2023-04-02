@@ -1,4 +1,4 @@
-import { SiGithub, SiTwitter, SiZenn } from 'react-icons/si';
+import { SiGithub, SiTwitter, SiZenn} from 'react-icons/si';
 
 export const sns = [
   {
@@ -7,7 +7,7 @@ export const sns = [
     label: 'Zenn',
   },
   {
-    href: 'https://github.com',
+    href: 'https://github.com/andyu17',
     icon: <SiGithub size={20} />,
     label: 'Github',
   },
